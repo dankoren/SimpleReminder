@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <TextView 
+        android:id="@+id/date_tv"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:textColor="#FFF"
+        android:gravity="center"/>
+    <TextView 
+        android:id="@+id/details_tv"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:layout_margin="30dp"
+        />
+	<LinearLayout 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+		android:orientation="horizontal">
+	     <ImageView
+            android:layout_width="97dp"
+            android:layout_height="57dp"
+            android:scaleType="fitXY"
+            android:onClick="edit_btn_click"
+        	android:src="@drawable/edit_btn"
+        />
+    	<View
+        	android:layout_marginLeft="0dp"
+        	android:layout_marginRight="0dp"
+        	android:layout_width="1dp"
+        	android:layout_height="fill_parent"
+        	android:background="#777"/>
+        <ImageView
+            android:layout_width="97dp"
+            android:layout_height="57dp"
+            android:scaleType="fitXY"
+            android:onClick="delete_btn_click"
+        	android:src="@drawable/delete_btn"
+        />
+	    <View
+        	android:layout_marginLeft="0dp"
+        	android:layout_marginRight="0dp"
+        	android:layout_width="1dp"
+        	android:layout_height="fill_parent"
+        	android:background="#777"/>
+        <ImageView
+            android:layout_width="97dp"
+            android:layout_height="57dp"
+            android:scaleType="fitXY"
+            android:onClick="cancel_btn_click"
+        	android:src="@drawable/cancel_btn"
+        />
+	</LinearLayout>
+    
+
+</LinearLayout>

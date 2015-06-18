@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    >
+    
+    <TextView 
+        android:id = "@+id/headline_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:textColor="#333"
+        />
+    <ImageView 
+        android:id="@+id/date_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/datepicker_icon"
+        android:layout_below="@id/headline_tv"
+        android:layout_marginLeft="25dp"
+        />
+    <TextView 
+        android:id = "@+id/date_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textStyle="normal|italic"
+        android:layout_below="@id/headline_tv"
+        android:layout_toRightOf="@id/date_image"
+        android:textColor="#333"
+        />
+
+    <TextView 
+        android:id="@+id/details_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textStyle="italic"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="15dp"
+        android:textColor="#333"
+        />
+</RelativeLayout>
