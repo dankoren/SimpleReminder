@@ -11,4 +11,5 @@ commands in SQL) and schuedule the notification accordingly.
 
 
 *In the 'src' folder you can find all the java code divided by packages.
+
 *In the 'res' folder you can find all the xml layouts that build the UI, Including all the icons and custom buttons.
